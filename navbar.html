@@ -12,28 +12,59 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
-	<div class="navbar navbar-expand-lg bg-dark">
-		<ul class="navbar-nav mr-auto" id="mr">
-			<li class="nav-item"></li>
-			<a href="#">Home</a>
-			<li class="nav-item"></li>
-			<a href="profile.html">Profile</a>
-			<li class="nav-item"></li>
-			<a href="login.html">Login</a>
-			<li class="nav-item"></li>
-			<a href="login.html">Drop</a>
+	<nav class="navbar navbar-expand-lg bg-dark">
+		<ul class="navbar-nav mr-auto" id="mr" style="word-spacing: 20px">
+			<li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		</li>
+			<li class="nav-item">
+
+			<a class="nav-link" href="profile.html">Profile</a>
+		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="login.html">Login</a>
+		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="login.html">Drop</a>
 		</li>
 		</ul>
 	</nav>
-	<div>
-		<div>
-			<h3>image-1</h3>
-			<h3>image-2</h3>
 	</div>
-	<div>
-		<h3>image-3</h3>
-		<h3>image-4</h3>
-	</div>
+	<style type="text/css">
+.row>div{
+border: solid blue;
+}
+.card,.card1{
+border: 20px solid blue;
+width: 600px;
+margin: 2px;
+padding: 10px;
+flex-direction: row-reverse;
+}
+</style>
+
+</head>
+<body>
+<div class="card">
+<div>
+
+<img class="card-img-top" src="image/profile.png"> <br>
+</div>
+<div>
+
+<img class="card-img-top" src="image/profile.png">
+</div>
+</div>
+<div class="card1" style="display: flex;">
+<div>
+<img class="card-img-top" src="image/profile.png"> <br>
+</div>
+<div>
+
+<img class="card-img-top" src="image/profile.png">
+</div>
+
+</div>
 </div>
 
 </body>
